@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<title>Conversor de moedas</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="estilo_conversor.css">
+</head>
+<body>
+	<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em real R$ e bitcoin BTC.
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="Logo da imersão dev"><br><br>
+  <label for="moeda">Insira o valor</label><br>
+  <input type="number" id="valor" size="2" /><br>
+  <button class="primeirobotao" type="submit" onclick="Converter()">Converter Real</button>
+  <button class="segundobotao" type="submit" onclick="Converterbitcoin()">Converter Bitcoin</button>
+  <h2 id="valorConvertido"></h2>
+  <h3 id="valorConvertidoBitcoin"></h3>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo da Alura" class="alura-logo">
+  <script src="conversor.js"></script>
+</body>
+</html>
